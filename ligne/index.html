@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+
+        <a href="#" class="logo">
+            🍽️ <span>Chez <b>Maman</b></span>
+            <small>Attiéké & Garba</small>
+        </a>
+
+        <ul class="menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#commande" class="panier">
+            🛒 Panier (0)
+        </a>
+
+    </nav>
+</header>
+
+
+<!-- ================= ACCUEIL ================= -->
+
+<section id="accueil" class="hero">
+
+    <div class="hero-contenu">
+
+        <p class="sous-titre">
+            LE GOÛT DE LA CÔTE D'IVOIRE
+        </p>
+
+        <h1>
+            L'attiéké qui vous fait
+            <span>revenir.</span>
+        </h1>
+
+        <p class="description">
+            Découvrez notre délicieux attiéké accompagné
+            de garba, poisson, poulet et nos sauces maison.
+        </p>
+
+        <div class="boutons">
+
+            <a href="#menu" class="btn-principal">
+                Commander maintenant
+            </a>
+
+            <a href="#apropos" class="btn-secondaire">
+                Découvrir
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MENU ================= -->
+
+<section id="menu" class="section-menu">
+
+    <div class="titre-section">
+
+        <p>NOTRE MENU</p>
+
+        <h2>Nos plats populaires</h2>
+
+        <span>
+            Des plats préparés avec amour ❤️
+        </span>
+
+    </div>
+
+
+    <div class="cartes">
+
+
+        <!-- GARBA -->
+
+        <div class="carte">
+
+            <div class="image-plat">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0UDjzeaDt-LEb4-Ee0pRPnHTXtvbcTtLvKUOJ0MspQ&s=10"
+                     alt="Garba classique" height="200" width="400">
+            </div>
+
+            <div class="contenu-carte">
+
+                <h3>Garba classique</h3>
+
+                <p>
+                    Attiéké, thon frit, oignon,
+                    tomate et piment.
+                </p>
+
+                <div class="bas-carte">
+
+                    <strong>1 000 FCFA</strong>
+
+                    <a href="#commande">
+                        🛒 + Ajouter
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- POISSON -->
+
+        <div class="carte">
+
+            <div class="image-plat">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszmxu9X_xO-ib8s21ASeDfNTUXWIGJYViffA6FCBPmw&s=10"
+                     alt="Attiéké poisson">
+            </div>
+
+            <div class="contenu-carte">
+
+                <h3>Attiéké poisson</h3>
+
+                <p>
+                    Attiéké frais, poisson grillé,
+                    oignon et tomate.
+                </p>
+
+                <div class="bas-carte">
+
+                    <strong>2 500 FCFA</strong>
+
+                    <a href="#commande">
+                        🛒 + Ajouter
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- POULET -->
+
+        <div class="carte">
+
+            <div class="image-plat">
+                <img src="data:image/jpeg;base64,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"
+                     alt="Attiéké poulet">
+            </div>
+
+            <div class="contenu-carte">
+
+                <h3>Attiéké poulet</h3>
+
+                <p>
+                    Attiéké accompagné de poulet
+                    braisé et légumes.
+                </p>
+
+                <div class="bas-carte">
+
+                    <strong>3 000 FCFA</strong>
+
+                    <a href="#commande">
+                        🛒 + Ajouter
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= À PROPOS ================= -->
+
+<section id="apropos" class="apropos">
+
+    <div class="image-apropos">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKa6QN9NhAo6H9_LWILAVXX9cENvUGax6jRyzFrsdW7KJGl67jsilDB1GP&s=10"
+             alt="Restaurant Chez Maman">
+
+    </div>
+
+
+    <div class="texte-apropos">
+
+        <p class="sous-titre">
+            À PROPOS DE NOUS
+        </p>
+
+        <h2>
+            Le vrai goût de
+            <span>l'attiéké ivoirien.</span>
+        </h2>
+
+        <p>
+            Chez Maman vous propose des plats ivoiriens
+            préparés avec des produits frais et sélectionnés
+            avec soin.
+        </p>
+
+        <p>
+            Notre objectif est de vous offrir un repas
+            savoureux, rapide et accessible.
+        </p>
+
+        <a href="#contact" class="btn-principal">
+            Nous contacter
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= AVANTAGES ================= -->
+
+<section class="avantages">
+
+    <div class="avantage">
+
+        <div class="icone">🥘</div>
+
+        <h3>Produits frais</h3>
+
+        <p>
+            Des ingrédients sélectionnés
+            chaque jour.
+        </p>
+
+    </div>
+
+
+    <div class="avantage">
+
+        <div class="icone">⚡</div>
+
+        <h3>Service rapide</h3>
+
+        <p>
+            Votre commande préparée
+            rapidement.
+        </p>
+
+    </div>
+
+
+    <div class="avantage">
+
+        <div class="icone">🚚</div>
+
+        <h3>Livraison</h3>
+
+        <p>
+            Recevez votre repas
+            où vous voulez.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= COMMANDE ================= -->
+
+<section id="commande" class="commande">
+
+    <div class="titre-section">
+
+        <p>VOTRE COMMANDE</p>
+
+        <h2>Commandez votre repas</h2>
+
+    </div>
+
+
+    <div class="commande-box">
+
+        <div class="commande-article">
+
+            <div>
+                <h3>Garba classique</h3>
+                <p>Attiéké + thon + oignon</p>
+            </div>
+
+            <strong>1 000 FCFA</strong>
+
+        </div>
+
+
+        <div class="commande-article">
+
+            <div>
+                <h3>Attiéké poisson</h3>
+                <p>Attiéké + poisson grillé</p>
+            </div>
+
+            <strong>2 500 FCFA</strong>
+
+        </div>
+
+
+        <div class="total">
+
+            <span>Total</span>
+
+            <strong>
+                3 500 FCFA
+            </strong>
+
+        </div>
+
+        <a href="#contact" class="btn-commande">
+            Commander maintenant
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <div class="titre-section">
+
+        <p>CONTACT</p>
+
+        <h2>Nous trouver</h2>
+
+    </div>
+
+
+    <div class="contact-cartes">
+
+        <div  class="hello">
+            <span>📍</span>
+            <h3>Adresse</h3>
+            <p>Abidjan, Côte d'Ivoire</p>
+        </div>
+
+
+        <div>
+            <span>📞</span>
+            <h3>Téléphone</h3>
+            <p>+225 07 00 00 10 00</p>
+        </div>
+
+
+        <div>
+            <span>🕐</span>
+            <h3>Horaires</h3>
+            <p>10h00 - 21h30</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="pepe">
+        <div class="footer-logo">
+            🍽️ Chez <b>Maman</b>
+        </div>
+
+            <p>
+             Attiéké & Garba
+            </p>
+    </div>
+    <p class="copyright">
+        © 2026 Chez Maman — Tous droits réservés.
+    </p>
+
+</footer>
+
+</body>
+</html>
